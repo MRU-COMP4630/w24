@@ -19,7 +19,7 @@ Your task is to find a dataset and question that interests you, explore it, and 
 The focus of this assignment is understanding data quality and the role of preprocessing. You are not expected to train a model, but you should think about what kind of model might be appropriate for your question.
 
 ## Deliverables
-Your submission should take the form of either a Jupyter notebook including your code, results, and analysis, **or** a notebook with your code and an accompanying PDF report. You may submit the file(s) directly to D2L, or submit a link to a separately hosted (e.g. GitHub/GitLab) repository. A template notebook is provided as a starting point.
+Your submission should take the form of either a Jupyter notebook including your code, results, and analysis, **or** a notebook with your code and an accompanying PDF report. You may submit the file(s) directly to D2L, or submit a link to a separately hosted (e.g. GitHub/GitLab) repository. A [template notebook](a1_template.ipynb) is provided as a starting point.
 
 ### Your report
 Your notebook or separate report should include:
