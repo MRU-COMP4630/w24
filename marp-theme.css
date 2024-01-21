@@ -1,0 +1,33 @@
+/*
+@theme marp-theme
+@auto-scaling true
+*/
+
+@import "default";
+
+h1,
+h2 {
+  border-bottom: 1px solid #ccc;
+  font-size: 1.75em;
+}
+
+section {
+  justify-content: flex-start;
+  font-size: 30px;
+}
+
+section.lead {
+  justify-content: center;
+}
+
+img[alt~="center"] {
+  display: block;
+  margin: 0 auto;
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 1rem;
+  align-items: center;
+}
