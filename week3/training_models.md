@@ -154,13 +154,13 @@ where $\mu_x$ and $\mu_y$ are the means of the $x$ and $y$ values, respectively.
 
 The following properties are useful for solving linear algebra problems:
 
-- $\mathbf{(AB)^T} = \mathbf{B}^T \mathbf{A}^T$
+- $\mathbf{(AB)}^T = \mathbf{B}^T \mathbf{A}^T$
 
-- $\mathbf{(A + B)^T} = \mathbf{A}^T + \mathbf{B}^T$
+- $\mathbf{(A + B)}^T = \mathbf{A}^T + \mathbf{B}^T$
 
-- $\mathbf{(A^{-1})^T} = (\mathbf{A}^T)^{-1}$
+- $\mathbf{(A^{-1})}^T = (\mathbf{A}^T)^{-1}$
 
-- $\mathbf{(A^T)^T} = \mathbf{A}$
+- $\mathbf{(A^T)}^T = \mathbf{A}$
 
 Additionally, any matrix or vector multiplied by $\mathbf{I}$ is unchanged.
 
