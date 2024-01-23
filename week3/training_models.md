@@ -96,7 +96,7 @@ $$\begin{aligned}
 After some algebraic gymnastics, we get:
 
 $$\begin{aligned}
-\theta_1 &= \frac{\mu_y \sum_{m}x_i - \sum_m x_i y_i}{\mu_x\sum_m x_i + \sum_m x_i^2}\\
+\theta_1 &= \frac{\mu_y \sum_{m}x_i - \sum_m x_i y_i}{\mu_x\sum_m x_i - \sum_m x_i^2}\\
 \theta_0 &= \mu_y - \theta_1 \mu_x
 \end{aligned}$$
 
