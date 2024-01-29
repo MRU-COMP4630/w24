@@ -31,3 +31,7 @@ img[alt~="center"] {
   gap: 1rem;
   align-items: center;
 }
+
+.centred {
+  margin: 0 auto;
+}
