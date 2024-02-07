@@ -5,9 +5,7 @@
 - What is the meaning of TP, FP, TN, TP?
 - Explain the trade off between precision and recall.
 - What is the F1 score?
-- Give an example where having higher precision is more important than having higher
-- recall value.
-- Give an example where having higher recall is more important than having higher
-- precision value.
+- Give an example where having higher precision is more important than having higher recall value.
+- Give an example where having higher recall is more important than having higher precision value.
 - What is the ROC curve, and how can it be used for selecting a classification algorithm?
 - What information can we get from an ROC curve?
