@@ -33,7 +33,7 @@ Charlotte Curtis
 
 <div class="columns">
 
-$$y[n] = \begin{cases} \frac{y[n - 1]}{2} & \text{if } n \text{ is even} \\ 3n + 1 & \text{if } n \text{ is odd} \end{cases}$$
+$$y[n] = \begin{cases} \frac{y[n - 1]}{2} & \text{if } n \text{ is even} \\ 3y[n - 1] + 1 & \text{if } n \text{ is odd} \end{cases}$$
 
 ![h:350](figs/3xplus1.png)
 
@@ -52,12 +52,12 @@ $$y[n] = \begin{cases} \frac{y[n - 1]}{2} & \text{if } n \text{ is even} \\ 3n +
 
 ## Recurrent layers
 - The simplest recurrent layer has a single feedback connection
-    $$\mathbf{\hat{z}}_t = f(\mathbf{W}_x^T \mathbf{x}_t + \mathbf{W}_{\hat{z}}^T \mathbf{\hat{z}}_{t-1} + \mathbf{b})$$
-    where $f$ is the activation function and $\mathbf{W}_x$ and $\mathbf{W}_{\hat{z}}$ are weight matrices
+    $$\mathbf{\hat{h}}_t = f(\mathbf{W}_x^T \mathbf{x}_t + \mathbf{W}_{\hat{y}}^T \mathbf{\hat{h}}_{t-1} + \mathbf{b})$$
+    where $f$ is the activation function and $\mathbf{W}_x$ and $\mathbf{W}_{\hat{y}}$ are weight matrices
 - "Backpropagation through time" (BPTT) is exactly the same as regular backpropagation through the **unrolled** network
 - :question: What kind of issues might arise during training?
 - :question: What are some limitations of this approach?
-- :question: How can we deal with $\mathbf{z}_{t-1}$ for $t = 0$?
+- :question: How can we deal with $\mathbf{h}_{t-1}$ for $t = 0$?
 
 ---
 
@@ -154,3 +154,28 @@ Non-RNN approaches include naive methods and **autoregressive** models
 
 <footer>Figure from Scikit-learn textbook</footer>
 
+---
+
+<!-- 
+_class: invert lead
+_paginate: skip
+ -->
+
+ ## Next up: Natural Language Processing
+
+ ---
+
+## Preview: Natural Language Processing
+
+<span style="font-size: 18pt">
+
+- Natural Language Processing (NLP) is a field of study that focuses on the interaction between computers and human language.
+- RNNs are widely used in NLP tasks such as language modeling, machine translation, sentiment analysis, and text generation.
+- Language modeling involves predicting the next word in a sequence of words, which can be done using RNNs.
+- Machine translation uses RNNs to translate text from one language to another.
+- Sentiment analysis aims to determine the sentiment or emotion expressed in a piece of text, and RNNs can be used for this task.
+- Text generation involves generating new text based on a given input, and RNNs are commonly used for this purpose.
+
+</span>
+
+<footer>This slide written by GitHub Copilot</footer>
