@@ -26,7 +26,7 @@ While the classes for each attribute are unbalanced, the dataset is large enough
 - Evaluating test data
 
 ## Deliverables
-Your submission should take the form of either a Jupyter notebook including your code, results, and analysis, **or** a notebook with your code and an accompanying PDF report. You may submit the file(s) directly to D2L, or submit a link to a separately hosted (e.g. GitHub/GitLab) repository. A [template notebook](a1_template.ipynb) is provided as a starting point, along with some helper functions to load and preprocess the data.
+Your submission should take the form of either a Jupyter notebook including your code, results, and analysis, **or** a notebook with your code and an accompanying PDF report. You may submit the file(s) directly to D2L, or submit a link to a separately hosted (e.g. GitHub/GitLab) repository. A [template notebook](a2_template.ipynb) is provided as a starting point, along with some helper functions to load and preprocess the data.
 
 ### Your report
 Your notebook or separate report should include:
