@@ -52,12 +52,12 @@ $$y[n] = \begin{cases} \frac{y[n - 1]}{2} & \text{if } n \text{ is even} \\ 3y[n
 
 ## Recurrent layers
 - The simplest recurrent layer has a single feedback connection
-    $$\mathbf{\hat{h}}_t = f(\mathbf{W}_x^T \mathbf{x}_t + \mathbf{W}_{\hat{y}}^T \mathbf{\hat{h}}_{t-1} + \mathbf{b})$$
+    $$\mathbf{\hat{y}}_t = f(\mathbf{W}_x^T \mathbf{x}_t + \mathbf{W}_{\hat{y}}^T \mathbf{\hat{y}}_{t-1} + \mathbf{b})$$
     where $f$ is the activation function and $\mathbf{W}_x$ and $\mathbf{W}_{\hat{y}}$ are weight matrices
 - "Backpropagation through time" (BPTT) is exactly the same as regular backpropagation through the **unrolled** network
 - :question: What kind of issues might arise during training?
 - :question: What are some limitations of this approach?
-- :question: How can we deal with $\mathbf{h}_{t-1}$ for $t = 0$?
+- :question: How can we deal with $\mathbf{y}_{t-1}$ for $t = 0$?
 
 ---
 
@@ -134,7 +134,7 @@ Non-RNN approaches include naive methods and **autoregressive** models
 
 ## Skip connections and leaky RNNs
 - Simple way of preserving earlier data:
-- Vanilla RNN: $h^{(t)}$ depends on $h^{(t-1)}$
+- Vanilla RNN: $h^{(t)}$ depends on $h^{(t-1)}$ (where $h^{(t)}$ is the hidden state at time $t$)
 - Skip connection: $h^{(t)}$ depends on $h^{(t-1)}$, $h^{(t-2)}$, $h^{(t-n)}$, etc.
 - Leaky RNN has a smooth "self-connection" to dampen the exponential:
     $$h^{(t)} = \alpha h^{(t-1)} + (1 - \alpha) h^{(t)}$$
