@@ -19,7 +19,11 @@ The purpose of this assignment is to further your hands-on experience in neural 
 ## Dataset
 The dataset for this assignment is the [Stack Overflow dataset](https://console.cloud.google.com/marketplace/product/stack-exchange/stack-overflow), an archive of all Stack Overflow questions, answers, and metadata since 2009, updated on a quarterly basis. This is a massive dataset that is impractical to load all at once; you will be using Google's [BigQuery API](https://cloud.google.com/bigquery/docs/reference/rest) to query the database and select a sample of the data.
 
-In order to access BigQuery data, you must create a project at https://console.cloud.google.com/. You will also need to enable the BigQuery API through the cloud console, which should pop up as soon as you create a project.
+In order to access BigQuery data, you must create a project at https://console.cloud.google.com/. You will also need to enable the BigQuery API through the cloud console by clicking on the hamburger menu at the top left and selecting "Library" under "APIs and services", then searching for BigQuery.
+
+> Note: apparently this was already enabled for my account, so I neglected to provide instructions originally. My apologies!
+
+![](enable_api.png)
 
 The free tier of Google Cloud provides up to 1 TB per month of data access, which should be plenty for this assignment. However, if you need more, you can request a Google Cloud coupon. You will be asked to provide your school email address and name. An email will be sent to you to confirm these details before a coupon is sent to you.
 
