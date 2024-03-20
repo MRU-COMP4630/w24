@@ -183,7 +183,6 @@ $$\begin{aligned}
 - **Stateful RNNs**: Maintaining state between batches
 - **Masked language models**: predicting a word given the surrounding words
 - **Beam search**: a way to find the most likely sequence of words
-- **Queries, keys, and values** formulation for attention (more info at [d2l.ai](https://d2l.ai/chapter_attention-mechanisms-and-transformers/queries-keys-values.html))
 - Many other things that I don't even know about
 
 ---
