@@ -127,7 +127,7 @@ where $e_{ti}$ is the **alignment score** or **energy** between the decoder hidd
 - **Positional encoding** re-introduces the concept of order
 - Simple approach for word position $p$ and dimension $i$:
     $$\begin{align}\text{PE}(p, 2i) &= \sin\left(\frac{p}{10000^{2i/d}}\right)\\
-    $$\text{PE}(p, 2i+1) &= \cos\left(\frac{p}{10000^{2i/d}}\right)\end{align}$$
+    \text{PE}(p, 2i+1) &= \cos\left(\frac{p}{10000^{2i/d}}\right)\end{align}$$
 - resulting vector is **added** to the input embeddings
 - :question: Why sinusoids? What other approaches might work?
 
